@@ -18,14 +18,14 @@
       <path filter="url(#blur-lg)" fill="#B6D0E2" d="M-100,300 C250,310 520,300 700,210 C830,145 860,30 1040,-40 L1300,-40 L1300,90 C1180,70 1080,150 960,230 C780,350 450,400 -100,400 Z"/>
       <path filter="url(#blur-md)" fill="#E6F2FA" d="M-100,335 C300,340 560,320 740,235 C860,175 900,70 1060,-10 L1200,-10 C1060,60 1010,160 900,235 C740,335 420,372 -100,372 Z"/>
       <ellipse filter="url(#blur-lg)" fill="#0A0B0E" cx="1105" cy="150" rx="120" ry="44" transform="rotate(-32 1105 150)"/>
-      <path filter="url(#blur-sm)" fill="#CFE3F0" d="M600,318 C820,292 1010,266 1300,236 L1300,254 C1010,284 830,306 600,330 Z"/>
+      <path filter="url(#blur-sm)" fill="#E8392B" d="M600,318 C820,292 1010,266 1300,236 L1300,254 C1010,284 830,306 600,330 Z"/>
     </g>
 
     <rect width="1200" height="340" filter="url(#grain)"/>
 
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="1s" fill="freeze"/>
-      <text x="60" y="132" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="88" font-weight="400" letter-spacing="-2" fill="#F2F7FA">Rohan Nuthi</text>
+      <text x="60" y="132" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="88" font-weight="400" letter-spacing="-2" fill="#F2F7FA">Rohan Nuthi<tspan fill="#E8392B">.</tspan></text>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" begin="0.6s" dur="1s" fill="freeze"/>
