@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Rohan Nuthi. Computer Engineering and Computer Science at UW–Madison, Class of 2028. Seeking SWE internships.">
+  <defs>
+    <clipPath id="panel"><rect width="1200" height="340" rx="14"/></clipPath>
+    <filter id="blur-lg" filterUnits="userSpaceOnUse" x="-300" y="-300" width="1800" height="940"><feGaussianBlur stdDeviation="30"/></filter>
+    <filter id="blur-md" filterUnits="userSpaceOnUse" x="-300" y="-300" width="1800" height="940"><feGaussianBlur stdDeviation="16"/></filter>
+    <filter id="blur-sm" filterUnits="userSpaceOnUse" x="-300" y="-300" width="1800" height="940"><feGaussianBlur stdDeviation="9"/></filter>
+    <filter id="grain" filterUnits="userSpaceOnUse" x="0" y="0" width="1200" height="340">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="11" stitchTiles="stitch"/>
+      <feColorMatrix type="matrix" values="3 0 0 0 -1  3 0 0 0 -1  3 0 0 0 -1  0 0 0 0 0.2"/>
+    </filter>
+  </defs>
+
+  <g clip-path="url(#panel)">
+    <rect width="1200" height="340" fill="#0A0B0E"/>
+
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0; -26 10; 0 0" dur="18s" repeatCount="indefinite"/>
+      <path filter="url(#blur-lg)" fill="#B6D0E2" d="M-100,300 C250,310 520,300 700,210 C830,145 860,30 1040,-40 L1300,-40 L1300,90 C1180,70 1080,150 960,230 C780,350 450,400 -100,400 Z"/>
+      <path filter="url(#blur-md)" fill="#E6F2FA" d="M-100,335 C300,340 560,320 740,235 C860,175 900,70 1060,-10 L1200,-10 C1060,60 1010,160 900,235 C740,335 420,372 -100,372 Z"/>
+      <ellipse filter="url(#blur-lg)" fill="#0A0B0E" cx="1105" cy="150" rx="120" ry="44" transform="rotate(-32 1105 150)"/>
+      <path filter="url(#blur-sm)" fill="#CFE3F0" d="M600,318 C820,292 1010,266 1300,236 L1300,254 C1010,284 830,306 600,330 Z"/>
+    </g>
+
+    <rect width="1200" height="340" filter="url(#grain)"/>
+
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="1s" fill="freeze"/>
+      <text x="60" y="132" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="88" font-weight="400" letter-spacing="-2" fill="#F2F7FA">Rohan Nuthi</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.6s" dur="1s" fill="freeze"/>
+      <text x="64" y="178" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="15" font-weight="500" letter-spacing="2.6" fill="#B6D0E2">COMPUTER ENGINEERING &amp; COMPUTER SCIENCE</text>
+      <text x="64" y="204" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="15" font-weight="500" letter-spacing="2.6" fill="#B6D0E2">UW–MADISON · CLASS OF 2028</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1s" dur="1s" fill="freeze"/>
+      <text x="1140" y="312" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="21" font-style="italic" fill="#F2F7FA" text-anchor="end">Seeking SWE internships</text>
+    </g>
+  </g>
+</svg>
