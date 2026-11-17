@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./header.svg" width="100%" alt="Rohan Nuthi. Computer Engineering & Computer Science @ UW–Madison, Class of 2028. Seeking SWE internships." />
+  <img src="./header.svg" width="100%" alt="Rohan Nuthi. Computer Engineering & Computer Science @ UW–Madison, Class of 2028." />
 </div>
 
 <p align="center">
